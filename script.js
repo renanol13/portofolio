@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
     });
 
     gsap.to(img_Profile, {
-      x: 0,
+      x: -50,
       opacity: 1,
       duration: 1,
     });
