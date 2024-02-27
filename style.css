@@ -47,20 +47,22 @@ header ul {
   gap: 30px;
 }
 
-header a:hover {
+header li:hover {
   color: red;
+  transition: .5s;
 }
 
 li {
   list-style: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
-  font-weight: 600;
-  transition: 0.3s;
 }
 
 

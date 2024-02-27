@@ -9,6 +9,29 @@ const iconMenu = document.querySelector("#iconBurguer");
 const showNav = document.querySelector("nav");
 
 
+const profile = document.querySelector("#profile");
+const scrollProfile = document.querySelector("#scrollProf");
+
+const project = document.querySelector("#projects")
+const scrollProject = document.querySelector("#scrollProj");
+
+const scrollSkill = document.querySelector("#scrollSkill");
+const skill = document.querySelector("#skills");
+
+scrollSkill.addEventListener("click", () => {
+  skill.scrollIntoView({behavior:'smooth'})
+})
+
+scrollProject.addEventListener("click", () => {
+  project.scrollIntoView({behavior:'smooth'})
+})
+
+
+scrollProfile.addEventListener('click', () => {
+  profile.scrollIntoView({behavior: 'smooth'})
+})
+
+
 window.addEventListener("load", () => {
   if (window.innerWidth >= 700) {
     gsap.to(i_am, {
